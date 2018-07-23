@@ -601,7 +601,8 @@ lk_obs <- function(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
 {
 
 # reconstruct parameters
-	G = diag(k)[,-1]
+    G = diag(k)[,-1]
+    if(k==2) {G=matrix(G)}
 	piv = exp(G%*%par_tot[1:(k-1)]); piv = as.vector(piv/sum(piv))
 	par_tot = par_tot[-(1:(k-1))]
 	if(!LC){
