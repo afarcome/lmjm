@@ -1,0 +1,309 @@
+nu
+exp(0.275)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+bev
+nu
+xiv
+phi
+psi
+psiv
+si2
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+bev
+nu
+xiv
+phi
+piv
+Pi
+pisv
+psiv
+si2
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,surv=FALSE)
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+psiv
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+lk1 = lk_obs()#par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+k
+lk1 = lk_obs()#par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+k
+k=3
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+piv
+Pi
+bev
+nu
+xiv
+phi
+psiv
+si2
+dev
+rbind(dev,censv)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+lk1 = lk_obs(par_tot,YM,XM,W,tv,censv,k,type,btv,M,PM,LC,surv,npX,npW,n)#
+		print(c(lk,lk1))
+dev
+1-censv
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+lk1 = lk_obs(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+print(c(lk,lk1))
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+lk1 = lk_obs(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+print(c(lk,lk1))
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+print(c(lk,lk1))
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+lk1 = lk_obs(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+out = lk_obs(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+out = lk_obs(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
+out
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+dim(Pp1)
+n
+print8n
+print(n)
+rowSums(Pp1[,1,])
+sum(bnv)
+G = diag(k)[,-1]#
+	bnv = rowSums(Pp1[,1,])#
+	dl1lav = t(G)%*%(bnv)
+sum(bnv)
+G = diag(k)[,-1]#
+	bnv = rowSums(Pp1[,1,])#
+	dl1lav = t(G)%*%(bnv-n*piv)
+dl1lav
+out$Pp2
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=20)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=20)
+PP1
+Pp1
+Pp1[Pp1=999] = NA
+PP1
+Pp1
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=20)
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+YM
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/lk_obs.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE,maxit=10)
+Ji
+Ji = -(Ji+t(Ji))/2
+Ji = -(Ji+t(Ji))/2#
+		sev = sqrt(diag(solve(Ji)))
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+sev
+Ji
+diag(Ji)
+Q
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+sev
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+rm(list=ls())
+# Example of application of the R functions related to the paper:#
+##
+# "A shared-parameter continuous-time hidden Markov and survival model for longitudinal data#
+#  with informative drop-out"#
+# by F.Bartolucci and A.Farcomeni (2018)#
+#
+# Simulation of data (see the function code for the help)#
+#
+# Normal distribution for the responses#
+source("simula_joint_HMcontinuous.R")#
+out = simula_joint_HMcontinuous()#
+#
+# Estimate with complete data#
+tT = out$tT   # time of any (time-continuous jump)#
+TT = out$TT   # observation times#
+tU = out$tU   # latent states#
+TT = out$TT   # time of observation of any longitudinal outcome#
+W = out$W     # matrix of baseline covariates#
+X = out$X     # array of time-varying covariates#
+Y = out$Y     # array of time-varying covariates#
+tv = out$tv   # vector of survival times#
+dev = out$dev # vector of censoring#
+source("est_comp_joint_HMcontinuous.R")#
+est = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=3,type="norm")
+# Estimate with incomplete data#
+source("est_incomp_joint_HMcontinuous.R")#
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+# Normal distribution for the responses#
+source("simula_joint_HMcontinuous.R")#
+out = simula_joint_HMcontinuous()#
+#
+# Estimate with complete data#
+tT = out$tT   # time of any (time-continuous jump)#
+TT = out$TT   # observation times#
+tU = out$tU   # latent states#
+TT = out$TT   # time of observation of any longitudinal outcome#
+W = out$W     # matrix of baseline covariates#
+X = out$X     # array of time-varying covariates#
+Y = out$Y     # array of time-varying covariates#
+tv = out$tv   # vector of survival times#
+dev = out$dev # vector of censoring#
+source("est_comp_joint_HMcontinuous.R")#
+est = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=3,type="norm")#
+#
+# Estimate with incomplete data#
+source("est_incomp_joint_HMcontinuous.R")#
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+sebev
+out$Ji = Ji; out$sev = sev; out$selav = selav; out$seLa = seLa; out$bev = sebev; out$seeta = seeta
+out$sevix = sexiv; out$sephi = sephi; out$sepsiv = sepsiv; out$sega = sega
+out
+sebev
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+Q
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+source("est_incomp_joint_HMcontinuous.R")
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+# Bernoulli distribution for the responses#
+out2 = simula_joint_HMcontinuous(n=500,type="bino")
+# Estimate under with complete data#
+tT = out$tT   # time of any (time-continuous jump)#
+TT = out$TT   # observation times#
+tU = out$tU   # latent states#
+TT = out$TT   # time of observation of any longitudinal outcome#
+W = out$W     # matrix of baseline covariates#
+X = out$X     # array of time-varying covariates#
+Y = out$Y     # array of time-varying covariates#
+tv = out$tv   # vector of survival times#
+dev = out$dev # vector of censoring#
+est2 = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=3,type="bino")#
+#
+# Estimate with incomplete data#
+source("est_incomp_joint_HMcontinuous.R")#
+est3 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="bino",verbose=TRUE,stderr=TRUE)
+est3 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="bino",verbose=TRUE,stderr=TRUE)
+Y
+rm(list=ls())
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+out2
+est2
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+est2
+est3
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+est = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=k0,type="norm")
+tU
+table(tU)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+traceback()
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+as.matrix(c(1,2))
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/est_incomp_joint_HMcontinuous.R")
+est = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=k0,type="norm")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")
+out = simulate_joint_HMcontinuous(k=k0)
+source("/Users/francescobartolucci/Dropbox/Collaborazioni/Farcomeni/lmjmSurv/code/final/example_joint_HMcontinuous.R")

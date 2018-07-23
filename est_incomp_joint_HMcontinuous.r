@@ -608,7 +608,8 @@ lk_obs <- function(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
 	if(!LC){
 		Pi = NULL
 		for(u in 1:k){
-			G = diag(k)[,-u]
+                    G = diag(k)[,-u]
+                    if(k==2) {G=matrix(G)}
 			tmp = exp(G%*%par_tot[1:(k-1)]); tmp = as.vector(tmp/sum(tmp))
 			Pi = rbind(Pi,tmp)			
 			par_tot = par_tot[-(1:(k-1))]
@@ -649,12 +650,14 @@ lk_obs <- function(par_tot,YM,XM,W,tv,dev,k,type,btv,M,PM,LC,surv,npX,npW,n)
 		dbtvnu = diff(btvnu)
 	}
 # compute functions
-	G = diag(k)[,-1]
+    G = diag(k)[,-1]
+    if(k==2) {G=matrix(G)}
 	bnv = rowSums(Pp1[,1,])
 	dl1lav = t(G)%*%(bnv-n*piv)	
 	dl1La = NULL
 	for(u in 1:k){
-		G = diag(k)[,-u]
+            G = diag(k)[,-u]
+            if(k==2) {G=matrix(G)}
 		dl1La = c(dl1La,t(G)%*%(Pp2[u,]-sum(Pp2[u,])*Pi[u,]))	
 	}
 	dl2bev = rep(0,2)

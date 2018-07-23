@@ -7,8 +7,9 @@
 # Simulation of data (see the function code for the help)
 
 # Normal distribution for the responses
+k0 = 2
 source("simulate_joint_HMcontinuous.r")
-out = simulate_joint_HMcontinuous()
+out = simulate_joint_HMcontinuous(k=k0)
 
 # Estimate with complete data
 tT = out$tT   # time of any (time-continuous jump)
@@ -21,11 +22,11 @@ Y = out$Y     # array of time-varying covariates
 tv = out$tv   # vector of survival times
 dev = out$dev # vector of censoring
 source("est_comp_joint_HMcontinuous.r")
-est = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=3,type="norm")
+est = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=k0,type="norm")
 
 # Estimate with incomplete data
 source("est_incomp_joint_HMcontinuous.r")
-est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="norm",verbose=TRUE,stderr=TRUE)
+est1 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=k0,type="norm",verbose=TRUE,stderr=TRUE)
 
 # Bernoulli distribution for the responses
 out1 = simulate_joint_HMcontinuous(n=500,type="bino")
@@ -40,8 +41,8 @@ X = out1$X     # array of time-varying covariates
 Y = out1$Y     # array of time-varying covariates
 tv = out1$tv   # vector of survival times
 dev = out1$dev # vector of censoring
-est2 = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=3,type="bino")
+est2 = est_comp_joint_HMcontinuous(tT,tU,TT,W,X,Y,tv,dev,k=k0,type="bino")
 
 # Estimate with incomplete data
 source("est_incomp_joint_HMcontinuous.r")
-est3 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=3,type="bino",verbose=TRUE,stderr=TRUE)
+est3 = est_incomp_joint_HMcontinuous(Y,TT,X,W,tv,dev,k=k0,type="bino",verbose=TRUE,stderr=TRUE)
