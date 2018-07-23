@@ -8,15 +8,22 @@ FORTRAN code to obtain executable binaries. To do so, type the
 following commands in your local R version:
 
 system("R CMD SHLIB lk_rec.f --preclean")
+
 system("R CMD SHLIB lk_rec_surv.f --preclean")
+
 system("R CMD SHLIB lk_comp_joint.f --preclean")
+
 system("R CMD SHLIB lk_comp_joint_surv.f --preclean")
+
 system("R CMD SHLIB dlk_comp_joint.f --preclean")
+
 system("R CMD SHLIB dlk_comp_joint_surv.f --preclean")
+
 
 Additionally, the following libraries must be installed:
 
 library(expm)
+
 library(survival)
 
 The repository is made of .f FORTRAN functions for computing the
