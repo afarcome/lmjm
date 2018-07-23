@@ -1,4 +1,4 @@
-simula_joint_HMcontinuous <- function(n=100,k=3,sepxiv=1,type=c("norm","bino")){
+simulate_joint_HMcontinuous <- function(n=100,k=3,sepxiv=1,type=c("norm","bino")){
 	
 # Simulation of the from joint model with continuous HM chain described in
 # "A shared-parameter continuous-time hidden Markov and survival model for longitudinal data
