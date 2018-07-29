@@ -295,7 +295,7 @@ est_incomp_joint_HMcontinuous = function(Y,TT,X,W,tv,dev,k,type=c("norm","bino")
 	out = list(lk=lk,Q=Q,piv=piv,bev=bev,nu=nu,xiv=xiv,phi=phi,psiv=psiv,si2=si2,pP=out$Pp1,Pi=Pi,it=it,tim=proc.time()[3]-t0,bic=bic)
 	if(stderr){
 		out$Ji = Ji; out$sev = sev; out$selav = selav; out$seLa = seLa; out$sebev = sebev; out$seeta = seeta
-		out$sevix = sexiv; out$sephi = sephi; out$sepsiv = sepsiv; out$sega = sega
+		out$sexiv = sexiv; out$sephi = sephi; out$sepsiv = sepsiv; out$sega = sega
 	}
 	return(out)
 
