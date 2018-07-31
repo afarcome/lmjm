@@ -1,4 +1,4 @@
-simulate_joint_HMcontinuous <- function(n=100,k=3,sepxiv=1,type=c("norm","bino")){
+simulate_joint_HMcontinuous <- function(n=100,k=2,sepxiv=1,type=c("norm","bino")){
 	
 # Simulation of the from joint model with continuous HM chain described in
 # "A shared-parameter continuous-time hidden Markov and survival model for longitudinal data
@@ -52,9 +52,9 @@ simulate_joint_HMcontinuous <- function(n=100,k=3,sepxiv=1,type=c("norm","bino")
 		for(t in 2:11) X[i,t,] = 0.9*X[i,t-1,]+rnorm(2)*sqrt(0.19)
 	}
 	bev = c(-1,1)                      # corresponding regression parameters 
-	phi = 0.5                          # random-effect coefficient on survival process
+	phi = 0.75                          # random-effect coefficient on survival process
 	W = cbind(1,matrix(rnorm(2*n),n))  # covariates for survival process
-	psiv = c(-4,-1,1)                  # corresponding regression parameters
+	psiv = c(-6,-1,1)                  # corresponding regression parameters
 	nu = 2                             # parameter of the Weibull distribution 
 
 # simulate data

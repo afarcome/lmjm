@@ -7,9 +7,8 @@
 # Simulation of data (see the function code for the help)
 
 # Normal distribution for the responses
-k0 = 2
 source("simulate_joint_HMcontinuous.r")
-out = simulate_joint_HMcontinuous(k=k0)
+out = simulate_joint_HMcontinuous()
 
 # Estimate with complete data
 tT = out$tT   # time of any (time-continuous jump)
